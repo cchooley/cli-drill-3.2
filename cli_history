@@ -1,0 +1,12 @@
+ 1752  ats-1
+ 1753  touch install.sh
+ 1754  mkdir app
+ 1755  cd app
+ 1756  mkdir bin
+ 1757  mv ../install.sh bin/install.sh
+ 1758  cp bin/install.sh bin/install.sh.backup
+ 1759  rm bin/install.sh bin/install.sh.backup
+ 1760  rm -r bin
+ 1761  ls
+ 1762  cd ..
+ 1763  rm -r app
